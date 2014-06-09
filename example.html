@@ -7,10 +7,23 @@
 	<script language="JavaScript" type="text/javascript" src="js/absurdly_simple_collapse_container.js"></script>
 	<body>
 		<h1>Absurdly Simple Collapse Container Example Page</h1>
-		<div id="1" class="absurdly_simple_collapse_container_header">Header Test 1</div>
-		<div id="1" class="absurdly_simple_collapse_container" style="display: none">
-			<div id="2" class="absurdly_simple_collapse_container_header">Header Test 2</div>
-			<div id="2" class="absurdly_simple_collapse_container" style="display: none">Container Test 2</div>
+		<div id="1" class="asc_container_header asc_red">
+			Example Header 1
+			<a id="1" class="asc_button asc_button_toggle asc_red_button">></a>
+			<a id="1" class="asc_button asc_button_open_all asc_red_button">+</a>
+			<a id="1" class="asc_button asc_button_close_all asc_red_button">-</a>
+		</div>
+		<div id="1" class="asc_container" style="display: none">
+			<div id="2" class="asc_container_header asc_orange">
+				Example Header 2
+				<a id="2" class="asc_button asc_button_toggle asc_orange_button">></a>
+			</div>
+			<div id="2" class="asc_container" style="display: none">Example Container 2</div>
+			<div id="3" class="asc_container_header asc_orange">
+				Example Header 3
+				<a id="3" class="asc_button asc_button_toggle asc_orange_button">></a>
+			</div>
+			<div id="3" class="asc_container" style="display: none">Example Container 3</div>
 		</div>
 	</body>
 </html>
